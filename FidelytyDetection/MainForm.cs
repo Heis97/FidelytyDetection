@@ -40,7 +40,7 @@ namespace FidelytyDetection
             var p_st = new PointF(
                 Convert.ToSingle(textBox_x_st.Text),
                 Convert.ToSingle(textBox_y_st.Text));
-            var k = Convert.ToSingle(textBox_k.Text);
+            var k = Convert.ToSingle(textBox_k.Text);//hjhgjgy
             var size = Convert.ToInt32(textBox_size.Text);
             FidelityDetection.draw_2d_design(p_st, k,size, imageBox2);
             FidelityDetection.compFidel(imageBox2);
